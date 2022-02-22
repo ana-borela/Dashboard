@@ -1,0 +1,88 @@
+:root {
+    --black: #0a0a0aeb;
+    --white: #fff;
+    --cian: #24a8ad;
+    --grey: #e4e4e45c;
+}
+
+.nav-link {
+    color: var(--cian);
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--grey) !important;
+}
+
+.logo {
+    width: 150px;
+}
+
+.link {
+    color: var(--cian);
+    text-decoration: none;
+}
+
+.modal-content,
+.btn-primary {
+    border: none !important;
+}
+
+.form-control,
+.btn-primary {
+    border-radius: 2rem !important;
+}
+
+.btn-primary {
+    background-color: var(--cian) !important;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    z-index: -9;
+}
+
+.nav-home {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-link, .drop-menu {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 0;
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-icon{
+    font-size: 1.5rem;
+}
+#sidebarMenu
+{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 30vw;
+    left: 0;
+    z-index: 99;
+    background-color: var(--cian);
+    color: var(--white);
+}
+
+#dashboard-content
+{
+    width: 90vw;
+    position: relative;
+    left: 2rem;
+}
+
+.card-dashboard
+{
+    background-color: var(--cian);
+    color: var(--white);
+}
